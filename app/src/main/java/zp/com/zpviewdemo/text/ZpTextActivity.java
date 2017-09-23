@@ -27,4 +27,9 @@ public class ZpTextActivity extends ZpBaseActivity{
         ZpActivity.getInstance().start(ZpTextActivity.this, ZpUpDownTextActivity.class);
     }
 
+    // 字母选择
+    public void setSideBar(View view){
+        ZpActivity.getInstance().start(ZpTextActivity.this, ZpSideBarActivity.class);
+    }
+
 }

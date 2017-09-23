@@ -17,4 +17,10 @@
         android:text="滚动"
         android:onClick="setUpDown"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="字母选择"
+        android:onClick="setSideBar"/>
+
 </LinearLayout>
