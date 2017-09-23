@@ -58,6 +58,8 @@
 
         <activity android:name=".text.ZpTextActivity"/>
 
+        <activity android:name=".radar.ZpRadarActivity"/>
+
     </application>
 
 </manifest>

@@ -11,6 +11,7 @@ import zp.com.zpviewdemo.load.ZpLoad01Activity;
 import zp.com.zpviewdemo.load.ZpLoadActivity;
 import zp.com.zpviewdemo.password.ZpPassWordActivity;
 import zp.com.zpviewdemo.powerful.activity.ZpPowerfulActivity;
+import zp.com.zpviewdemo.radar.ZpRadarActivity;
 import zp.com.zpviewdemo.rainbow.ZpRainBowActivity;
 import zp.com.zpviewdemo.shader.ZpShaderActivity;
 import zp.com.zpviewdemo.shadow.ZpBitmapShadowActivity;
@@ -73,13 +74,19 @@ public class MainActivity extends AppCompatActivity {
         ZpActivity.getInstance().start(MainActivity.this, ZpPassWordActivity.class);
     }
 
+    // 功能强大
     public void setPoworfulView(View view){
         ZpActivity.getInstance().start(MainActivity.this, ZpPowerfulActivity.class);
     }
 
+    // 点赞笑脸
     public void setSmile(View view){
         ZpActivity.getInstance().start(MainActivity.this, ZpSmileActivity.class);
     }
 
+    // 雷达分布图
+    public void setRadar(View view){
+        ZpActivity.getInstance().start(MainActivity.this, ZpRadarActivity.class);
+    }
 
 }

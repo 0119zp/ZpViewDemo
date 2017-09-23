@@ -93,6 +93,13 @@
                 android:text="点赞笑脸"
                 android:onClick="setSmile"/>
 
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="雷达分布图"
+                android:onClick="setRadar"/>
+
+
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
