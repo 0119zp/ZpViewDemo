@@ -147,4 +147,12 @@
         <attr name="shadowSpace" format="reference|dimension" />
     </declare-styleable>
 
+    <!-- 开关按钮 -->
+    <declare-styleable name="WiperSwitch">
+        <attr name="backgroundOn" format="reference" />
+        <attr name="backgroundOff" format="reference" />
+        <attr name="drawableSlipperOn" format="reference" />
+        <attr name="drawableSlipperOff" format="reference" />
+    </declare-styleable>
+
 </resources>

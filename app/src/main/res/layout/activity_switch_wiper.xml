@@ -5,16 +5,16 @@
     android:gravity="center"
     android:orientation="vertical">
 
-    <Button
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="setIos"
-        android:text="仿Ios" />
+        android:layout_marginBottom="30dp"
+        android:text="说明：需要添加开关状态的图片"
+        android:textColor="#ff0000" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="setWiper"
-        android:text="开关" />
+    <zp.com.zpviewdemo.on_off.view.ZpWiperSwitch
+        android:id="@+id/wiperswitch"
+        android:layout_width="50dp"
+        android:layout_height="25dp" />
 
 </LinearLayout>

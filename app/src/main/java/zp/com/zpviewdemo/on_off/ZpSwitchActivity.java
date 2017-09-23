@@ -23,5 +23,10 @@ public class ZpSwitchActivity extends ZpBaseActivity {
         startActivity(intent);
     }
 
+    // 开关
+    public void setWiper(View view) {
+        Intent intent = new Intent(ZpSwitchActivity.this, ZpWiperSwitchActivity.class);
+        startActivity(intent);
+    }
 
 }

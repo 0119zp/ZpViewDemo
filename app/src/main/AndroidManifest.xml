@@ -66,6 +66,8 @@
 
         <activity android:name=".on_off.ZpIosSwitchActivity" />
 
+        <activity android:name=".on_off.ZpWiperSwitchActivity" />
+
     </application>
 
 </manifest>
