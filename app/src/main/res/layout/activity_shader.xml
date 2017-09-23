@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:qdx="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="start"
+            android:text="开启"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="end"
+            android:text="结束"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <zp.com.zpviewdemo.shader.view.RadarVeiw
+            android:id="@+id/rv_radar_view"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            qdx:backgColor="#000"
+            qdx:circleCount="4"
+            qdx:endColor="#aaff0000"
+            qdx:raderLineColor="#00ff00"
+            qdx:startColor="#aa0000ff"/>
+
+    </LinearLayout>
+
+</LinearLayout>

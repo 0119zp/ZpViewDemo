@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center">
+
+    <zp.com.zpviewdemo.powerful.view.PowerfulEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="自带清除文本功能"
+        app:funcType="canClear" />
+
+    <zp.com.zpviewdemo.powerful.view.PowerfulEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="自带查看密码功能"
+        android:inputType="textPassword"
+        app:funcType="canWatchPwd" />
+
+    <zp.com.zpviewdemo.powerful.view.PowerfulEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:drawableRight="@mipmap/ic_launcher"
+        android:hint="控制两侧图标大小"
+        app:leftDrawableHeight="40dp"
+        app:leftDrawableWidth="40dp"
+        app:rightDrawableHeight="30dp"
+        app:rightDrawableWidth="30dp" />
+
+    <zp.com.zpviewdemo.powerful.view.PowerfulEditText
+        android:id="@+id/pet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/search"
+        android:hint="自定义右侧图标点击事件" />
+
+    <zp.com.zpviewdemo.powerful.view.PhoneEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="分段手机号"/>
+
+    <zp.com.zpviewdemo.powerful.view.BankCardNumEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="分段银行卡号"/>
+
+</LinearLayout>

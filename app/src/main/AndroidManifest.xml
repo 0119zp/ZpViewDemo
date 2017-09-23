@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="zp.com.zpviewdemo">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".line.activity.ZpLineViewActivity"/>
+
+        <activity android:name=".load.ZpLoadActivity"/>
+
+        <activity android:name=".ZpCeshiActivity"/>
+
+        <activity android:name=".voice.ZpVoiceActivity"/>
+
+        <activity android:name=".load.ZpLoad01Activity"/>
+
+        <activity android:name=".shader.ZpShaderActivity"/>
+
+        <activity android:name=".text.ZpGradentTextActivity"/>
+
+        <activity android:name=".rainbow.ZpRainBowActivity"/>
+
+        <activity android:name=".shadow.ZpBitmapShadowActivity"/>
+
+        <activity android:name=".bitmap.ZpBitmapActivity"/>
+
+        <activity android:name=".bitmap.ZpCircleActivity"/>
+
+        <activity android:name=".password.ZpPassWordActivity"/>
+
+        <activity android:name=".powerful.activity.ZpPowerfulActivity"/>
+
+        <activity android:name=".powerful.activity.ZpEditTextActivity"/>
+
+        <activity android:name=".powerful.activity.ZpChartViewActivity"/>
+
+        <activity android:name=".powerful.activity.ZpRunNumActivity"/>
+
+        <activity android:name=".powerful.activity.ZpExpandableTextViewActivity"/>
+
+        <activity android:name=".smile.ZpSmileActivity"/>
+
+        <activity android:name=".text.ZpUpDownTextActivity"/>
+
+        <activity android:name=".text.ZpTextActivity"/>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:gravity="center">
+
+    <zp.com.zpviewdemo.text.view.GradientText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="塞纳河畔 左岸的咖啡\n我手一杯 品尝你的美"
+        android:textColor="#ddff0000"
+        android:textSize="30sp" />
+
+</LinearLayout>

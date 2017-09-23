@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/pull_down_refreshview_rel"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/pull_down_refreshview_img_top"
+            android:layout_width="42dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="8dp"/>
+
+        <zp.com.zpviewdemo.load.view.ProgressbarView
+            android:id="@+id/pull_down_refreshview_rel_progress"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/money_rmb_gray"/>
+    </RelativeLayout>
+</LinearLayout>

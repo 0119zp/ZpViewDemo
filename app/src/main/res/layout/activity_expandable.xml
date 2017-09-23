@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <zp.com.zpviewdemo.powerful.view.ExpandableTextView.ExpandableTextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ellipsize="end"
+        android:textColor="#666"
+        app:animDuration="200"
+        app:collapseDrawable="@drawable/icon_green_arrow_down"
+        app:collapseExpandGrarity="right"
+        app:collapseExpandTextColor="@color/main_color"
+        app:contentTextSize="12sp"
+        app:expandDrawable="@drawable/icon_green_arrow_up"
+        app:maxCollapsedLines="4"
+        app:textCollapse="@string/collapse"
+        app:textExpand="@string/expand"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/tv"
+        android:text="哈哈。。。"
+        android:textSize="30sp"
+        android:textColor="#ff0000"/>
+
+</RelativeLayout>
