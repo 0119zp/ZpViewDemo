@@ -12,92 +12,98 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:gravity="center">
+            android:gravity="center"
+            android:orientation="vertical">
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="line"
-                android:onClick="setLine"/>
+                android:onClick="setLine"
+                android:text="line" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="load"
-                android:onClick="setLoad"/>
+                android:onClick="setLoad"
+                android:text="load" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="load_01"
-                android:onClick="setLoad_01"/>
+                android:onClick="setLoad_01"
+                android:text="load_01" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="测试"
-                android:onClick="button"/>
+                android:onClick="button"
+                android:text="测试" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="语音"
-                android:onClick="setVoice"/>
+                android:onClick="setVoice"
+                android:text="语音" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="雷达"
-                android:onClick="setShader"/>
+                android:onClick="setShader"
+                android:text="雷达" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="炫酷文字"
-                android:onClick="setGradientText"/>
+                android:onClick="setGradientText"
+                android:text="炫酷文字" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="彩虹"
-                android:onClick="setRainBow"/>
+                android:onClick="setRainBow"
+                android:text="彩虹" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="图片倒影"
-                android:onClick="setBitmapShadow"/>
+                android:onClick="setBitmapShadow"
+                android:text="图片倒影" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="bitmap"
-                android:onClick="setBitmap"/>
+                android:onClick="setBitmap"
+                android:text="bitmap" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="密码"
-                android:onClick="setPassWord"/>
+                android:onClick="setPassWord"
+                android:text="密码" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="powerful"
-                android:onClick="setPoworfulView"/>
+                android:onClick="setPoworfulView"
+                android:text="powerful" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="点赞笑脸"
-                android:onClick="setSmile"/>
+                android:onClick="setSmile"
+                android:text="点赞笑脸" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="雷达分布图"
-                android:onClick="setRadar"/>
+                android:onClick="setRadar"
+                android:text="雷达分布图" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="setSwitch"
+                android:text="开关" />
 
 
         </LinearLayout>

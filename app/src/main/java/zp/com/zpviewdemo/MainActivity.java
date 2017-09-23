@@ -9,6 +9,7 @@ import zp.com.zpviewdemo.bitmap.ZpBitmapActivity;
 import zp.com.zpviewdemo.line.activity.ZpLineViewActivity;
 import zp.com.zpviewdemo.load.ZpLoad01Activity;
 import zp.com.zpviewdemo.load.ZpLoadActivity;
+import zp.com.zpviewdemo.on_off.ZpSwitchActivity;
 import zp.com.zpviewdemo.password.ZpPassWordActivity;
 import zp.com.zpviewdemo.powerful.activity.ZpPowerfulActivity;
 import zp.com.zpviewdemo.radar.ZpRadarActivity;
@@ -87,6 +88,11 @@ public class MainActivity extends AppCompatActivity {
     // 雷达分布图
     public void setRadar(View view){
         ZpActivity.getInstance().start(MainActivity.this, ZpRadarActivity.class);
+    }
+
+    // 开关
+    public void setSwitch(View view) {
+        ZpActivity.getInstance().start(MainActivity.this, ZpSwitchActivity.class);
     }
 
 }

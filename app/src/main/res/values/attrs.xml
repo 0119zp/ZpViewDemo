@@ -131,4 +131,20 @@
         <attr name="dividerString" format="string" />
     </declare-styleable>
 
+    <!-- 仿Ios开关按钮 -->
+    <declare-styleable name="IosSwitchView">
+        <!--除去圆形knob外的打开时内容颜色-->
+        <attr name="openColor" format="reference|color" />
+        <!--除去圆形knob外的关闭时内容颜色-->
+        <attr name="closeColor" format="reference|color" />
+        <!--圆形knob的颜色-->
+        <attr name="knobColor" format="reference|color" />
+        <!--外部椭圆的边界颜色-->
+        <attr name="backgroundColor" format="reference|color" />
+        <!--外部椭圆边的宽度-->
+        <attr name="outerStrokeWidth" format="reference|dimension" />
+        <!--阴影大小-->
+        <attr name="shadowSpace" format="reference|dimension" />
+    </declare-styleable>
+
 </resources>

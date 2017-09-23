@@ -62,6 +62,10 @@
 
         <activity android:name=".text.ZpSideBarActivity"/>
 
+        <activity android:name=".on_off.ZpSwitchActivity" />
+
+        <activity android:name=".on_off.ZpIosSwitchActivity" />
+
     </application>
 
 </manifest>
