@@ -21,10 +21,10 @@
         </ScrollView>
     </zp.com.zpviewdemo.load.view.PullDownRefreshView>
 
-    <!--<zp.com.zpviewdemo.load.view.ProgressbarView-->
-        <!--android:id="@+id/pv_load"-->
-        <!--android:layout_width="50dp"-->
-        <!--android:layout_height="50dp"-->
-        <!--android:background="@drawable/money_rmb_gray"/>-->
+    <zp.com.zpviewdemo.load.view.ProgressbarView
+        android:id="@+id/pv_load"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/money_rmb_gray" />
 
 </LinearLayout>

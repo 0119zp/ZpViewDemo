@@ -1,10 +1,13 @@
 package zp.com.zpviewdemo.load;
 
+import android.graphics.BitmapFactory;
+import android.graphics.drawable.BitmapDrawable;
 import android.widget.ScrollView;
 
 import zp.com.zpbase.activity.ZpBaseActivity;
 import zp.com.zpbase.utils.ZpLog;
 import zp.com.zpviewdemo.R;
+import zp.com.zpviewdemo.load.view.ProgressbarView;
 import zp.com.zpviewdemo.load.view.PullDownRefreshView;
 
 /**
@@ -18,7 +21,7 @@ public class ZpLoad01Activity extends ZpBaseActivity {
     private ScrollView card_scrview;
     private PullDownRefreshView card_pay_pull_refresh_view;
 
-//    private ProgressbarView pbView;
+    private ProgressbarView pbView;
 
     @Override
     protected int exInitLayout() {
@@ -44,12 +47,12 @@ public class ZpLoad01Activity extends ZpBaseActivity {
             }
         });
 
-//        pbView = (ProgressbarView) findViewById(R.id.pv_load);
-//        pbView.setBackgroundCircle(0xAAe8e8e8);//背景淡灰色
-//        pbView.setPreviousCirle(0x66ff0000);//进度前景色
-//        pbView.setRoundWidth(20);
-//        pbView.setBackgroundDrawable(new BitmapDrawable(BitmapFactory.decodeResource(this.getResources(),R.drawable.money_rmb)));
-//        pbView.setValues(60f);
+        pbView = (ProgressbarView) findViewById(R.id.pv_load);
+        pbView.setBackgroundCircle(0xAAe8e8e8);//背景淡灰色
+        pbView.setPreviousCirle(0x66ff0000);//进度前景色
+        pbView.setRoundWidth(20);
+        pbView.setBackgroundDrawable(new BitmapDrawable(BitmapFactory.decodeResource(this.getResources(), R.drawable.money_rmb)));
+        pbView.setValues(60f);
     }
 
 }
