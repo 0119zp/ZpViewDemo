@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import zp.com.zpbase.utils.ZpActivity;
 import zp.com.zpviewdemo.bitmap.ZpBitmapActivity;
+import zp.com.zpviewdemo.gif.ZpGifActivity;
 import zp.com.zpviewdemo.line.activity.ZpLineViewActivity;
 import zp.com.zpviewdemo.load.ZpLoad01Activity;
 import zp.com.zpviewdemo.load.ZpLoadActivity;
@@ -29,23 +30,25 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void setLine(View view){
-        Intent intent = new Intent(MainActivity.this, ZpLineViewActivity.class);
-        startActivity(intent);
+        ZpActivity.getInstance().start(MainActivity.this, ZpLineViewActivity.class);
     }
 
+    // 加载进度
     public void setLoad(View view){
-        Intent intent = new Intent(MainActivity.this, ZpLoadActivity.class);
-        startActivity(intent);
+        ZpActivity.getInstance().start(MainActivity.this, ZpLoadActivity.class);
     }
 
-    public void setLoad_01(View view){
-        ZpActivity.getInstance().start(MainActivity.this, ZpLoad01Activity.class);
+    // gif
+    public void setGif(View view) {
+        ZpActivity.getInstance().start(MainActivity.this, ZpGifActivity.class);
     }
 
+    // 测试zp公共头部
     public void button(View view){
         ZpActivity.getInstance().start(MainActivity.this, ZpCeshiActivity.class);
     }
 
+    // 语音动画
     public void setVoice(View view){
         ZpActivity.getInstance().start(MainActivity.this, ZpVoiceActivity.class);
     }

@@ -30,8 +30,8 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="setLoad_01"
-                android:text="load_01" />
+                android:onClick="setGif"
+                android:text="gif" />
 
             <Button
                 android:layout_width="wrap_content"

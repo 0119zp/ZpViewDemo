@@ -48,7 +48,7 @@ public class BitmapShadow extends View{
 
     private void initView() {
         // 得到bitmap对象
-        bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.meinv);
+        bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.dongtu);
         shadowPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
         mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
 
