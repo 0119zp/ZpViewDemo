@@ -10,7 +10,7 @@ import java.io.ByteArrayOutputStream;
  * Created by Administrator on 2017/9/26 0026.
  */
 
-public class ImageUtil {
+public class ZpImageUtil {
 
     /**
      * Base64编码字串转bitmap

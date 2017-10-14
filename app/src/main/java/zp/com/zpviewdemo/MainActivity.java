@@ -1,14 +1,13 @@
 package zp.com.zpviewdemo;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import zp.com.zpbase.utils.ZpActivity;
 import zp.com.zpviewdemo.bitmap.ZpBitmapActivity;
+import zp.com.zpviewdemo.ceshi.ZpCeshiActivity;
 import zp.com.zpviewdemo.gif.ZpGifActivity;
 import zp.com.zpviewdemo.line.activity.ZpLineViewActivity;
-import zp.com.zpviewdemo.load.ZpLoad01Activity;
 import zp.com.zpviewdemo.load.ZpLoadActivity;
 import zp.com.zpviewdemo.on_off.ZpSwitchActivity;
 import zp.com.zpviewdemo.password.ZpPassWordActivity;

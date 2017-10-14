@@ -1,4 +1,4 @@
-package zp.com.zpviewdemo;
+package zp.com.zpviewdemo.ceshi;
 
 import android.view.View;
 
@@ -7,6 +7,7 @@ import zp.com.zpbase.fragment.ZpOperationNotNetworkFragment;
 import zp.com.zpbase.utils.ZpLog;
 import zp.com.zpbase.utils.ZpToast;
 import zp.com.zpbase.view.ZpNavigationBar;
+import zp.com.zpviewdemo.R;
 
 /**
  * Created by Administrator on 2017/7/25 0025.

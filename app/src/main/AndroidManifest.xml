@@ -24,7 +24,7 @@
 
         <activity android:name=".load.ZpLoad02Activity" />
 
-        <activity android:name=".ZpCeshiActivity"/>
+        <activity android:name=".ceshi.ZpCeshiActivity" />
 
         <activity android:name=".voice.ZpVoiceActivity"/>
 
