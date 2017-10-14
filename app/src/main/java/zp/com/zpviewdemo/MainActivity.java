@@ -14,6 +14,7 @@ import zp.com.zpviewdemo.password.ZpPassWordActivity;
 import zp.com.zpviewdemo.powerful.activity.ZpPowerfulActivity;
 import zp.com.zpviewdemo.radar.ZpRadarActivity;
 import zp.com.zpviewdemo.rainbow.ZpRainBowActivity;
+import zp.com.zpviewdemo.ratingbar.ZpRatingBarActivity;
 import zp.com.zpviewdemo.shader.ZpShaderActivity;
 import zp.com.zpviewdemo.shadow.ZpBitmapShadowActivity;
 import zp.com.zpviewdemo.smile.ZpSmileActivity;
@@ -95,6 +96,11 @@ public class MainActivity extends AppCompatActivity {
     // 开关
     public void setSwitch(View view) {
         ZpActivity.getInstance().start(MainActivity.this, ZpSwitchActivity.class);
+    }
+
+    // 星级
+    public void setRatingBar(View view) {
+        ZpActivity.getInstance().start(MainActivity.this, ZpRatingBarActivity.class);
     }
 
 }

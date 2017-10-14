@@ -75,6 +75,8 @@
 
         <activity android:name=".gif.ZpGifMovieActivity" />
 
+        <activity android:name=".ratingbar.ZpRatingBarActivity" />
+
     </application>
 
 </manifest>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <zp.com.zpviewdemo.ratingbar.view.ZpRatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:starCount="5"
+        app:starEmpty="@drawable/icon_collection_off"
+        app:starFill="@drawable/icon_collection_on"
+        app:starHalf="@drawable/icon_collection_off"
+        app:starImageSize="20dp"
+        app:starPadding="5dp"
+        app:starStep="1.5"
+        app:stepSize="Half" />
+
+</LinearLayout>

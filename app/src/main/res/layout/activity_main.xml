@@ -105,6 +105,12 @@
                 android:onClick="setSwitch"
                 android:text="开关" />
 
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="setRatingBar"
+                android:text="星级" />
+
 
         </LinearLayout>
     </ScrollView>
