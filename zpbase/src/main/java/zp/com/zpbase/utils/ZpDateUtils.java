@@ -48,8 +48,7 @@ public class ZpDateUtils {
      */
     public static String getDate2CHString(Context context, long milliseconds) {
         Calendar calendar = getDate2Calendar(milliseconds);
-//        return context.getString(R.string.date_ch_template, calendar.get(Calendar.YEAR), calendar.get(Calendar.MONTH) + 1, calendar.get(Calendar.DAY_OF_MONTH));
-        return null;
+        return context.getString(R.string.date_ch_template, calendar.get(Calendar.YEAR), calendar.get(Calendar.MONTH) + 1, calendar.get(Calendar.DAY_OF_MONTH));
     }
 
     /**
@@ -65,8 +64,7 @@ public class ZpDateUtils {
             return getDate2CHString(context, milliseconds);
 
         Calendar calendar = getDate2Calendar(milliseconds);
-//        return context.getString(R.string.date_ch_no_day_template, calendar.get(Calendar.YEAR), calendar.get(Calendar.MONTH) + 1);
-        return null;
+        return context.getString(R.string.date_ch_no_day_template, calendar.get(Calendar.YEAR), calendar.get(Calendar.MONTH) + 1);
     }
 
     /**

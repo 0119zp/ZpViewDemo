@@ -8,4 +8,7 @@
     <string name="ex_str_content_please_not_mark_app">请选中“允许安装非电子市场的应用程序选项”再试！</string>
     <string name="ex_str_content_please_check_app_type">运行失败,请检查该应用的类型!</string>
 
+    <string name="date_ch_template">%1$d年%2$d月%3$d日</string>
+    <string name="date_ch_no_day_template">%1$d年%2$d月</string>
+
 </resources>
