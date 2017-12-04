@@ -28,7 +28,7 @@ public class ZpTextActivity extends ZpBaseActivity{
     }
 
     public void setGundong(View view) {
-        ZpActivity.getInstance().start(ZpTextActivity.this, ZpUpDownTextActivity.class);
+        ZpActivity.getInstance().start(ZpTextActivity.this, ZpGundongActivity.class);
     }
 
     // 字母选择
