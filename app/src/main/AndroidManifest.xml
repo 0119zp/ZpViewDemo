@@ -57,6 +57,8 @@
         <activity android:name=".smile.ZpSmileActivity"/>
 
         <activity android:name=".text.ZpUpDownTextActivity"/>
+        <!-- 文字上下滚动 -->
+        <activity android:name=".text.ZpGundongActivity" />
 
         <activity android:name=".text.ZpTextActivity"/>
 

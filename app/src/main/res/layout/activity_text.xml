@@ -1,26 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-    android:gravity="center">
+    android:gravity="center"
+    android:orientation="vertical">
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="闪光"
-        android:onClick="setSplash"/>
+        android:onClick="setSplash"
+        android:text="闪光" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="滚动"
-        android:onClick="setUpDown"/>
+        android:onClick="setUpDown"
+        android:text="滚动" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="字母选择"
-        android:onClick="setSideBar"/>
+        android:onClick="setGundong"
+        android:text="上下滚动" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="setSideBar"
+        android:text="字母选择" />
 
 </LinearLayout>
