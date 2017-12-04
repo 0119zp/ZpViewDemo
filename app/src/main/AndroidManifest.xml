@@ -59,6 +59,8 @@
         <activity android:name=".text.ZpUpDownTextActivity"/>
         <!-- 文字上下滚动 -->
         <activity android:name=".text.ZpGundongActivity" />
+        <!-- tag -->
+        <activity android:name=".text.ZpTagActivity" />
 
         <activity android:name=".text.ZpTextActivity"/>
 

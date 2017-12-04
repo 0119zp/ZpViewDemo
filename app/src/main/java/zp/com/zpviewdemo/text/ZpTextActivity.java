@@ -36,4 +36,8 @@ public class ZpTextActivity extends ZpBaseActivity{
         ZpActivity.getInstance().start(ZpTextActivity.this, ZpSideBarActivity.class);
     }
 
+    public void setTag(View view) {
+        ZpActivity.getInstance().start(ZpTextActivity.this, ZpTagActivity.class);
+    }
+
 }
