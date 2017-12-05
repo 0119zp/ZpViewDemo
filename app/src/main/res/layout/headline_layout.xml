@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ViewSwitcher
+        android:id="@+id/headline_viewswitcher"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="1dp">
+
+        <include
+            android:id="@+id/subView1"
+            layout="@layout/headline_holder" />
+
+        <include
+            android:id="@+id/subView2"
+            layout="@layout/headline_holder" />
+    </ViewSwitcher>
+</RelativeLayout>

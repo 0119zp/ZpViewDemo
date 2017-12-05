@@ -56,21 +56,21 @@ public class HeadlineView extends RelativeLayout {
     }
 
     private void initView() {
-//        rootView = LayoutInflater.from(getContext()).inflate(R.layout.headline_layout, this, true);
-//        viewSwitcher = (ViewSwitcher) rootView.findViewById(R.id.headline_viewswitcher);
-//        if (subView1 == null) {
-//            subView1 = (LinearLayout) viewSwitcher.findViewById(R.id.subView1);
-//            final ViewHolder holder = new ViewHolder();
-//            holder.content_tv = (TextView) subView1.findViewById(R.id.headline_content_tv);
-//
-//            subView1.setTag(holder);
-//        }
-//        if (subView2 == null) {
-//            subView2 = (LinearLayout) viewSwitcher.findViewById(R.id.subView2);
-//            final ViewHolder holder = new ViewHolder();
-//            holder.content_tv = (TextView) subView2.findViewById(R.id.headline_content_tv);
-//            subView2.setTag(holder);
-//        }
+        rootView = LayoutInflater.from(getContext()).inflate(R.layout.headline_layout, this, true);
+        viewSwitcher = (ViewSwitcher) rootView.findViewById(R.id.headline_viewswitcher);
+        if (subView1 == null) {
+            subView1 = (LinearLayout) viewSwitcher.findViewById(R.id.subView1);
+            final ViewHolder holder = new ViewHolder();
+            holder.content_tv = (TextView) subView1.findViewById(R.id.headline_content_tv);
+
+            subView1.setTag(holder);
+        }
+        if (subView2 == null) {
+            subView2 = (LinearLayout) viewSwitcher.findViewById(R.id.subView2);
+            final ViewHolder holder = new ViewHolder();
+            holder.content_tv = (TextView) subView2.findViewById(R.id.headline_content_tv);
+            subView2.setTag(holder);
+        }
 
         //进入动画
         viewSwitcher.setInAnimation(getContext(), R.anim.headline_in);
