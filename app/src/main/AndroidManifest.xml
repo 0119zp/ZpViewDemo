@@ -61,6 +61,8 @@
         <activity android:name=".text.ZpGundongActivity" />
         <!-- tag -->
         <activity android:name=".text.ZpTagActivity" />
+        <!-- 选择标签 -->
+        <activity android:name=".text.ZpSelectTagActivity" />
 
         <activity android:name=".text.ZpTextActivity"/>
 

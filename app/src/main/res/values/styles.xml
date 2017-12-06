@@ -32,4 +32,14 @@
         </attr>
     </declare-styleable>
 
+    <style name="SelectTag">
+        <item name="android:layout_width">64dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:textColor">#6600ff00</item>
+        <item name="android:background">@drawable/selector_select_tag_background</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+    </style>
+
 </resources>

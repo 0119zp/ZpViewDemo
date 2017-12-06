@@ -27,7 +27,6 @@ import zp.com.zpviewdemo.R;
  * 3. 支持设置行间距、列间距
  * 4. 支持设置item宽高及字体大小
  * 5. 支持屏幕自适应宽度模式，此模式间距固定，宽定根据列数自适应
- * <p>
  */
 public class ZpSelectTag extends RecyclerView {
 
@@ -373,7 +372,7 @@ public class ZpSelectTag extends RecyclerView {
 
         public SelectTagViewHolder(View itemView) {
             super(itemView);
-            tvTag = (TextView) itemView;
+            tvTag = (TextView) itemView.findViewById(R.id.tag_tv);
         }
     }
 }

@@ -167,4 +167,16 @@
 
     <style name="Widget.GifMoviewView" parent="@android:style/Widget" />
 
+    <declare-styleable name="SelectTag">
+        <attr name="itemWidth" format="dimension" />
+        <attr name="itemHeight" format="dimension" />
+        <attr name="itemTextSize" format="dimension" />
+        <attr name="horizontalSpacing" format="dimension" />
+        <attr name="verticalSpacing" format="dimension" />
+        <attr name="columns" format="integer" />
+        <attr name="responsive" format="boolean" />
+        <attr name="multiSelect" format="boolean" />
+        <attr name="maxSelectNum" format="integer" />
+    </declare-styleable>
+
 </resources>

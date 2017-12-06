@@ -35,4 +35,10 @@
         android:onClick="setTag"
         android:text="tag" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="setSelectTag"
+        android:text="选择标签" />
+
 </LinearLayout>

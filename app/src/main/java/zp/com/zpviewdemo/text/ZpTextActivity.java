@@ -40,4 +40,7 @@ public class ZpTextActivity extends ZpBaseActivity{
         ZpActivity.getInstance().start(ZpTextActivity.this, ZpTagActivity.class);
     }
 
+    public void setSelectTag(View view) {
+        ZpActivity.getInstance().start(ZpTextActivity.this, ZpSelectTagActivity.class);
+    }
 }
