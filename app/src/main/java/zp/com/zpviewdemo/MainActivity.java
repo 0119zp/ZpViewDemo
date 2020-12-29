@@ -1,8 +1,8 @@
 package zp.com.zpviewdemo;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import androidx.appcompat.app.AppCompatActivity;
 import zp.com.zpbase.utils.ZpActivity;
 import zp.com.zpviewdemo.bitmap.ZpBitmapActivity;
 import zp.com.zpviewdemo.ceshi.ZpCeshiActivity;

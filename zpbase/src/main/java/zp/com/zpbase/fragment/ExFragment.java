@@ -2,19 +2,18 @@ package zp.com.zpbase.fragment;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.os.Message;
-import android.support.annotation.Nullable;
-import android.support.v4.app.DialogFragment;
-import android.support.v4.app.FragmentActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.DialogFragment;
+import androidx.fragment.app.FragmentActivity;
 
 /**
  * Created by zpan on 2017/7/25 0025.
  */
 
-public abstract class ExFragment extends DialogFragment{
+public abstract class ExFragment extends DialogFragment {
 
     protected FragmentActivity mActivity;
     protected Context mContext;

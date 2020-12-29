@@ -8,7 +8,6 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
-import android.support.v4.content.ContextCompat;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.util.SparseBooleanArray;
@@ -20,6 +19,7 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import androidx.core.content.ContextCompat;
 import zp.com.zpviewdemo.R;
 import zp.com.zpviewdemo.powerful.utils.UIUtils;
 

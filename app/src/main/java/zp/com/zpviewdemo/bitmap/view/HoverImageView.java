@@ -18,10 +18,11 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.widget.ImageView;
 
+import androidx.appcompat.widget.AppCompatImageView;
 import zp.com.zpviewdemo.R;
 
 
-public class HoverImageView extends ImageView {
+public class HoverImageView extends AppCompatImageView {
 
 	// Scaletype决定了图片在View上显示时的样子，如进行何种比例的缩放，及显示图片的整体还是部分，等等
 	private static final ScaleType SCALE_TYPE = ScaleType.CENTER_CROP;
@@ -131,12 +132,13 @@ public class HoverImageView extends ImageView {
 	        Rect bitmapBounds = maiDrawable.getBounds();
 	        rect.set(bitmapBounds);
 	        
-			int saveCount = canvas.saveLayer(rect, null,
-                    Canvas.MATRIX_SAVE_FLAG |
-                    Canvas.CLIP_SAVE_FLAG |
-                    Canvas.HAS_ALPHA_LAYER_SAVE_FLAG |
-                    Canvas.FULL_COLOR_LAYER_SAVE_FLAG |
-                    Canvas.CLIP_TO_LAYER_SAVE_FLAG);
+			//int saveCount = canvas.saveLayer(rect, null,
+            //        Canvas.MATRIX_SAVE_FLAG |
+            //        Canvas.CLIP_SAVE_FLAG |
+            //        Canvas.HAS_ALPHA_LAYER_SAVE_FLAG |
+            //        Canvas.FULL_COLOR_LAYER_SAVE_FLAG |
+            //        Canvas.CLIP_TO_LAYER_SAVE_FLAG);
+			int saveCount = 0;
 			getImageMatrix().mapRect(rect);
 
 			// 抗锯齿方法两种（其一：paint.setAntiAlias(ture);paint.setBitmapFilter(true))

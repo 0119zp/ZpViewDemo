@@ -2,8 +2,8 @@ package zp.com.zpviewdemo.ratingbar;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 
+import androidx.annotation.Nullable;
 import zp.com.zpviewdemo.R;
 import zp.com.zpviewdemo.ratingbar.view.ZpRatingBar;
 

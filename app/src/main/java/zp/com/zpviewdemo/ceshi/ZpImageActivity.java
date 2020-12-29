@@ -5,10 +5,10 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.text.TextUtils;
 import android.widget.Toast;
 
+import androidx.annotation.Nullable;
 import zp.com.zpbase.utils.ZpFileUtil;
 import zp.com.zpbase.utils.ZpImageUtil;
 
